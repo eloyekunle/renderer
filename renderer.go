@@ -53,7 +53,7 @@ const (
 
 	defaultCharSet            string = "utf-8"
 	defaultJSONPrefix         string = ""
-	defaultXMLPrefix          string = `<?xml version="1.0" encoding="ISO-8859-1" ?>\n`
+	defaultXMLPrefix          string = `<?xml version="1.0" encoding="ISO-8859-1" ?>` + "\n"
 	defaultTemplateExt        string = "tpl"
 	defaultLayoutExt          string = "lout"
 	defaultTemplateLeftDelim  string = "{{"
